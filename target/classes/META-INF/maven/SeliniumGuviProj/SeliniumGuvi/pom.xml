@@ -12,6 +12,13 @@
     <artifactId>webdrivermanager</artifactId>
     <version>5.6.3</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.10.2</version>
+    <scope>test</scope>
+</dependency>
 
 <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 <dependency>
@@ -39,13 +46,24 @@
     <version>8.4.0</version>
 </dependency>
 
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 <dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.10.2</version>
-    <scope>test</scope>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.1</version>
 </dependency>
 
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>7.18.0</version>
+		</dependency>
+<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>7.18.0</version>
+		</dependency>
   </dependencies>
   <groupId>SeliniumGuviProj</groupId>
   <artifactId>SeliniumGuvi</artifactId>

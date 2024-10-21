@@ -31,7 +31,7 @@ public class ReadAdvanEx {
 			
 		for(int i=0; i<rowsize1; i++) {
 			XSSFRow row = sheet.getRow(i);
-			int column=sheet.getRow(0).getLastCellNum();
+			int column=sheet.getRow(0).getPhysicalNumberOfCells();
 
 			System.out.println(column);
 			for(int j=0; j<column; j++) {

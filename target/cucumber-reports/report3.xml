@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="35.816" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Login" name="Check login with valid credentials" time="5.46">
+<system-out><![CDATA[
+Given user is on the login page.............................................passed
+When user enters "testuser1" and "Test@124".................................passed
+And user clicks on Rediff.com link..........................................passed
+Then user is navigated to "Rediff.com: News | Rediffmail | Stock Quotes | Rediff Gurus".passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Check login with invalid credentials" time="30.186">
+<system-out><![CDATA[
+Given user is on the login page.............................................passed
+When user enters "testuser4" and "Test@1254"................................passed
+And user clicks on Rediff.com link..........................................passed
+Then user is navigated to "Rediff.com: News | Rediffmail | Stock Quotes | Rediff Gurus".passed
+]]></system-out>
+</testcase>
+</testsuite>
